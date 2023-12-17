@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<texts>
+	<!-->
+	Attention! All localized text presented in the game must come from this file to ensure that the font atlases contain all required characters.
+	Also note that the character set must exactly match this file (for example do not use string.ToUpper() in a script).
+	<-->
+	<languages>		
+		<en-EN>
+			<name>English (UK)</name>
+			<font>CCBattleCryRegular</font>
+		</en-EN>
+		
+		<fr-FR>
+			<name>Français</name>
+			<font>AngryBirds-Regular</font>
+		</fr-FR>
+		
+		<it-IT>
+			<name>Italiano</name>			
+			<font>AngryBirds-Regular</font>
+		</it-IT>
+		
+		<de-DE>
+			<name>Deutsch</name>
+			<font>AngryBirds-Regular</font>
+		</de-DE>
+		
+		<es-ES>
+			<name>Español</name>
+			<font>AngryBirds-Regular</font>
+		</es-ES>
+		
+		<zh-TW>
+			<name>Chinese (traditional)</name>
+			<font>DFT_FY7</font>
+		</zh-TW>
+		
+		<zh-CN>
+			<name>Chinese (simplified)</name>
+			<font>DFP_GBFY7</font>
+		</zh-CN>
+		
+		<ja-JA>
+			<name>Japanese</name>
+			<font>ARIALUNI</font>
+		</ja-JA>
+		
+		<ru-RU>
+			<name>Russian</name>
+			<font>ARIALUNI</font>
+		</ru-RU>
+		
+		<ar-AR>
+			<name>Arabic</name>
+			<font>ARIALUNI</font>
+		</ar-AR>
+		
+		<pt-PT>
+			<name>Portuguese</name>
+			<font>AngryBirds-Regular</font>
+		</pt-PT>
+		
+		<pt-BR>
+			<name>Portuguese (Brazil)</name>
+			<font>AngryBirds-Regular</font>
+		</pt-BR>
+		
+		<pl-PL>
+			<name>Polish</name>
+			<font>ARIALUNI</font>
+		</pl-PL>		
+	</languages>
+	
+	<text>
+		<text_id>ITEM_HELP</text_id>
+		<description>
+			Main menu item: Read the help. Also used as Help page title and selection item in the ingame pause menu.
+		</description>
+		<en-EN>Help</en-EN>
+		<fr-FR>Aide</fr-FR>
+		<it-IT>Guida</it-IT>
+		<de-DE>Hilfe</de-DE>
+		<es-ES>Ayuda</es-ES>
+		<zh-TW></zh-TW>
+		<zh-CN></zh-CN>		
+		<ja-JA>ヘルプ</ja-JA>
+		<ru-RU>комбинированный пакет </ru-RU>
+		<ar-AR></ar-AR>
+		<pt-PT></pt-PT>
+		<pt-BR></pt-BR>
+		<pl-PL>Pomoc</pl-PL>		
+	</text>
+	
+	<text>
+		<text_id>MI_SCORE</text_id>		
+		<description></description>				
+		<en-EN>Score:</en-EN>
+		<fr-FR>Score:</fr-FR>
+		<it-IT>Punteggio:</it-IT>
+		<de-DE>Punkte:</de-DE>
+		<es-ES>Puntuación:</es-ES>
+		<zh-TW>分數</zh-TW>
+		<zh-CN>分数</zh-CN>		
+		<ja-JA>スコア</ja-JA>
+		<ru-RU>Счет</ru-RU>
+		<ar-AR>النتيجة</ar-AR>
+		<pt-PT>Pontuação:</pt-PT>
+		<pt-BR>Pontuação:</pt-BR>
+		<pl-PL>Wynik:</pl-PL>		
+	</text>
+	
+	<text>
+		<text_id>ITEM_CREDITS_PRODUCERS</text_id>		
+		<description></description>				
+		<en-EN>Producers:</en-EN>
+		<fr-FR>Développé:</fr-FR>
+		<it-IT>Sviluppato:</it-IT>
+		<de-DE>eingetragene:</de-DE>
+		<es-ES>Los personaje:</es-ES>
+		<zh-TW>著作權所 </zh-TW>
+		<zh-CN>版权所有</zh-CN>		
+		<ja-JA>によって保</ja-JA>
+		<ru-RU>расстояние</ru-RU>
+		<ar-AR>هي علامات تجا</ar-AR>
+		<pt-PT>Estão:</pt-PT>
+		<pt-BR>São protegidos:</pt-BR>
+		<pl-PL>międzynarodowym</pl-PL>		
+	</text>
+	
+	<text>
+		<text_id>ITEM_CREDITS_PROGRAMMERS</text_id>		
+		<description></description>				
+		<en-EN>Programmers:</en-EN>
+		<fr-FR>Développé:</fr-FR>
+		<it-IT>Sviluppato:</it-IT>
+		<de-DE>eingetragene:</de-DE>
+		<es-ES>Los personaje:</es-ES>
+		<zh-TW>著作權所 </zh-TW>
+		<zh-CN>版权所有</zh-CN>		
+		<ja-JA>によって保</ja-JA>
+		<ru-RU>расстояние</ru-RU>
+		<ar-AR>هي علامات تجا</ar-AR>
+		<pt-PT>Estão:</pt-PT>
+		<pt-BR>São protegidos:</pt-BR>
+		<pl-PL>międzynarodowym</pl-PL>		
+	</text>
+	
+	<text>
+		<text_id>ITEM_CREDITS_DESIGNERS</text_id>		
+		<description></description>				
+		<en-EN>Designers:</en-EN>
+		<fr-FR>Développé:</fr-FR>
+		<it-IT>Sviluppato:</it-IT>
+		<de-DE>eingetragene:</de-DE>
+		<es-ES>Los personaje:</es-ES>
+		<zh-TW>著作權所 </zh-TW>
+		<zh-CN>版权所有</zh-CN>		
+		<ja-JA>によって保</ja-JA>
+		<ru-RU>расстояние</ru-RU>
+		<ar-AR>هي علامات تجا</ar-AR>
+		<pt-PT>Estão:</pt-PT>
+		<pt-BR>São protegidos:</pt-BR>
+		<pl-PL>międzynarodowym</pl-PL>		
+	</text>
+	
+	<text>
+		<text_id>ITEM_CREDITS_ARTISTS</text_id>		
+		<description></description>				
+		<en-EN>Artists:</en-EN>
+		<fr-FR>Développé:</fr-FR>
+		<it-IT>Sviluppato:</it-IT>
+		<de-DE>eingetragene:</de-DE>
+		<es-ES>Los personaje:</es-ES>
+		<zh-TW>著作權所 </zh-TW>
+		<zh-CN>版权所有</zh-CN>		
+		<ja-JA>によって保</ja-JA>
+		<ru-RU>расстояние</ru-RU>
+		<ar-AR>هي علامات تجا</ar-AR>
+		<pt-PT>Estão:</pt-PT>
+		<pt-BR>São protegidos:</pt-BR>
+		<pl-PL>międzynarodowym</pl-PL>		
+	</text>
+	
+	<text>
+		<text_id>ITEM_CREDITS_EXEC_PRODUCERS</text_id>		
+		<description></description>				
+		<en-EN>Executive Producers:</en-EN>
+		<fr-FR>Développé:</fr-FR>
+		<it-IT>Sviluppato:</it-IT>
+		<de-DE>eingetragene:</de-DE>
+		<es-ES>Los personaje:</es-ES>
+		<zh-TW>著作權所 </zh-TW>
+		<zh-CN>版权所有</zh-CN>		
+		<ja-JA>によって保</ja-JA>
+		<ru-RU>расстояние</ru-RU>
+		<ar-AR>هي علامات تجا</ar-AR>
+		<pt-PT>Estão:</pt-PT>
+		<pt-BR>São protegidos:</pt-BR>
+		<pl-PL>międzynarodowym</pl-PL>		
+	</text>
+	
+	<text>
+		<text_id>MI_TIME</text_id>		
+		<description></description>				
+		<en-EN>Time:</en-EN>
+		<fr-FR>Timé:</fr-FR>
+		<it-IT>Sviluppato:</it-IT>
+		<de-DE>eingetragene:</de-DE>
+		<es-ES>Los personaje:</es-ES>
+		<zh-TW>著作權所 </zh-TW>
+		<zh-CN>版权所有</zh-CN>		
+		<ja-JA>によって保</ja-JA>
+		<ru-RU>расстояние</ru-RU>
+		<ar-AR>هي علامات تجا</ar-AR>
+		<pt-PT>Estão:</pt-PT>
+		<pt-BR>São protegidos:</pt-BR>
+		<pl-PL>międzynarodowym</pl-PL>		
+	</text>
+
+	<text>
+		<text_id>ITEM_ARE_YOU_SURE</text_id>
+		<description>
+			Confirmation text when erasing data or quitting the game.
+		</description>		
+		<en-EN character_size="1.0">Are you sure?</en-EN>
+		<fr-FR>Êtes-vous sûr ?</fr-FR>
+		<it-IT>Sei sicuro?</it-IT>
+		<de-DE>Bist du sicher?</de-DE>
+		<es-ES>¿Estás seguro?</es-ES>
+		<zh-TW></zh-TW>
+		<zh-CN></zh-CN>		
+		<ja-JA>実行しますか？</ja-JA>
+		<ru-RU></ru-RU>
+		<ar-AR></ar-AR>
+		<pt-PT></pt-PT>
+		<pt-BR></pt-BR>
+		<pl-PL>Na pewno?</pl-PL>		
+	</text>
+	
+	<text>
+		<text_id>IN_APP_PURCHASE_BLUEPRINTS_UPSELL</text_id>
+		<description>
+			Upsell text for blueprints purchase popup
+		</description>		
+		<en-EN character_size="1.0">Not sure of the right set-up? 
+I'm ready to help!
+		</en-EN>	
+	</text>
+	
+	<text>
+		<text_id>IN_APP_PURCHASE_UNLOCK_ALL_LEVELS_UPSELL</text_id>
+		<description>
+			Upsell text for unlocking all levels purchase popup
+		</description>		
+		<en-EN character_size="1.0">Open all levels now and take off instantly!
+		</en-EN>	
+	</text>
+	
+	<text>
+		<text_id>IN_APP_PURCHASE_UNLOCK_FULL_VERSION_UPSELL</text_id>
+		<description>
+			Upsell text for unlocking all levels purchase popup
+		</description>		
+		<en-EN character_size="1.0">Open all levels now and take off instantly!
+		</en-EN>	
+	</text>
+	
+	<text>
+		<text_id>MI_LOADING</text_id>
+		<description>
+			Confirmation text when erasing data or quitting the game.
+		</description>
+		<en-EN>Loading...</en-EN>
+		<fr-FR>Chargement en cours…	</fr-FR>
+		<it-IT>Caricamento in corso…</it-IT>
+		<de-DE>Ladevorgang...</de-DE>
+		<es-ES>Cargando...</es-ES>
+		<zh-TW>正在載入……</zh-TW>
+		<zh-CN>正在加载……</zh-CN>
+		<ja-JA>ロード中</ja-JA>
+		<ru-RU>Загрузка…</ru-RU>
+		<ar-AR>جاري التحميل...</ar-AR>
+		<pt-PT>A carregar...</pt-PT>
+		<pt-BR>Carregando</pt-BR>
+		<pl-PL>Ładowanie...</pl-PL>
+	</text>
+
+  <text>
+    <text_id>MI_EPISODE_1</text_id>
+    <description>
+      Name of the episode
+    </description>
+    <en-EN>First
+Episode</en-EN>
+    <fr-FR>Chargement en cours…	</fr-FR>
+    <it-IT>Caricamento in corso…</it-IT>
+    <de-DE>Ladevorgang...</de-DE>
+    <es-ES>Cargando...</es-ES>
+    <zh-TW>正在載入……</zh-TW>
+    <zh-CN>正在加载……</zh-CN>
+    <ja-JA>ロード中</ja-JA>
+    <ru-RU>Загрузка…</ru-RU>
+    <ar-AR>جاري التحميل...</ar-AR>
+    <pt-PT>A carregar...</pt-PT>
+    <pt-BR>Carregando</pt-BR>
+    <pl-PL>Ładowanie...</pl-PL>
+  </text>
+
+  <text>
+    <text_id>MI_EPISODE_2</text_id>
+    <description>
+      Name of the episode
+    </description>
+    <en-EN>Second
+Episode</en-EN>
+    <fr-FR>Chargement en cours…	</fr-FR>
+    <it-IT>Caricamento in corso…</it-IT>
+    <de-DE>Ladevorgang...</de-DE>
+    <es-ES>Cargando...</es-ES>
+    <zh-TW>正在載入……</zh-TW>
+    <zh-CN>正在加载……</zh-CN>
+    <ja-JA>ロード中</ja-JA>
+    <ru-RU>Загрузка…</ru-RU>
+    <ar-AR>جاري التحميل...</ar-AR>
+    <pt-PT>A carregar...</pt-PT>
+    <pt-BR>Carregando</pt-BR>
+    <pl-PL>Ładowanie...</pl-PL>
+  </text>
+	
+	<text>
+		<text_id>grp.GROUND_HOG_DAY</text_id>
+		<description>Achievement name</description>
+		<en-EN>Ground Hog Day</en-EN>
+	</text>
+	<text>
+		<text_id>grp.WHEN_PIGS_FLY</text_id>
+		<description>Achievement name</description>
+		<en-EN>When Pigs Fly</en-EN>
+	</text>
+	<text>
+		<text_id>grp.WELL_GROUNDED</text_id>
+		<description>Achievement name</description>
+		<en-EN>Well Grounded</en-EN>
+	</text>
+	<text>
+		<text_id>grp.BORN_TO_BE_AIRBORNE</text_id>
+		<description>Achievement name</description>
+		<en-EN>Born to be Airborne</en-EN>
+	</text>
+	<text>
+		<text_id>grp.GROUND_BREAKER</text_id>
+		<description>Achievement name</description>
+		<en-EN>Ground Breaker</en-EN>
+	</text>
+	<text>
+		<text_id>grp.PRETTY_FLY</text_id>
+		<description>Achievement name</description>
+		<en-EN>Pretty Fly</en-EN>
+	</text>
+	<text>
+		<text_id>grp.JUNIOR_WRECKER</text_id>
+		<description>Achievement name</description>
+		<en-EN>Junior Wrecker</en-EN>
+	</text>
+	<text>
+		<text_id>grp.QUALIFIED_WRECKER</text_id>
+		<description>Achievement name</description>
+		<en-EN>Qualified Wrecker</en-EN>
+	</text>
+	<text>
+		<text_id>grp.VETERAN_WRECKER</text_id>
+		<description>Achievement name</description>
+		<en-EN>Veteran Wrecker</en-EN>
+	</text>
+	<text>
+		<text_id>grp.PIGSHAW</text_id>
+		<description>Achievement name</description>
+		<en-EN>Pigshaw</en-EN>
+	</text>
+	<text>
+		<text_id>grp.HOGFFEUR</text_id>
+		<description>Achievement name</description>
+		<en-EN>Hogffeur</en-EN>
+	</text>
+	<text>
+		<text_id>grp.THINK_INSIDE_THE_BOX</text_id>
+		<description>Achievement name</description>
+		<en-EN>Think Inside the Box</en-EN>
+	</text>
+	<text>
+		<text_id>grp.THINK_OUTSIDE_THE_BOX</text_id>
+		<description>Achievement name</description>
+		<en-EN>Think Outside the Box</en-EN>
+	</text>
+	<text>
+		<text_id>grp.LITERATE</text_id>
+		<description>Achievement name</description>
+		<en-EN>Literate Individual</en-EN>
+	</text>
+	<text>
+		<text_id>grp.BOOM_BOOM_I</text_id>
+		<description>Achievement name</description>
+		<en-EN>Boom Boom I</en-EN>
+	</text>
+	<text>
+		<text_id>grp.BOOM_BOOM_II</text_id>
+		<description>Achievement name</description>
+		<en-EN>Boom Boom II</en-EN>
+	</text>
+	<text>
+		<text_id>grp.BOOM_BOOM_III</text_id>
+		<description>Achievement name</description>
+		<en-EN>Boom Boom III</en-EN>
+	</text>
+	<text>
+		<text_id>grp.COMPLEX_COMPLEX</text_id>
+		<description>Achievement name</description>
+		<en-EN>Complex Complex</en-EN>
+	</text>
+	<text>
+		<text_id>grp.SKILLED_PILOT</text_id>
+		<description>Achievement name</description>
+		<en-EN>Skilled Pilot</en-EN>
+	</text>
+	<text>
+		<text_id>grp.POPPERS_THEORY_I</text_id>
+		<description>Achievement name</description>
+		<en-EN>Popper's Theory I</en-EN>
+	</text>
+	<text>
+		<text_id>grp.POPPERS_THEORY_II</text_id>
+		<description>Achievement name</description>
+		<en-EN>Popper's Theory II</en-EN>
+	</text>
+	<text>
+		<text_id>grp.POPPERS_THEORY_III</text_id>
+		<description>Achievement name</description>
+		<en-EN>Popper's Theory III</en-EN>
+	</text>
+	<text>
+		<text_id>grp.PORCINE_CANNONBALL</text_id>
+		<description>Achievement name</description>
+		<en-EN>Porcine Cannonball</en-EN>
+	</text>
+	<text>
+		<text_id>grp.TOURIST_I</text_id>
+		<description>Achievement name</description>
+		<en-EN>Tourist I</en-EN>
+	</text>
+	<text>
+		<text_id>grp.TOURIST_II</text_id>
+		<description>Achievement name</description>
+		<en-EN>Tourist II</en-EN>
+	</text>
+	<text>
+		<text_id>grp.TOURIST_III</text_id>
+		<description>Achievement name</description>
+		<en-EN>Tourist III</en-EN>
+	</text>
+	<text>
+		<text_id>grp.CRASH_COURSE</text_id>
+		<description>Achievement name</description>
+		<en-EN>Crash Course</en-EN>
+	</text>
+	<text>
+		<text_id>grp.BRUSH</text_id>
+		<description>Achievement name</description>
+		<en-EN>Brush with the Past</en-EN>
+	</text>
+	<text>
+		<text_id>grp.IS_IT_SECRET</text_id>
+		<description>Achievement name</description>
+		<en-EN>Adventurer</en-EN>
+	</text>
+	<text>
+		<text_id>grp.SECRET_ADMIRER</text_id>
+		<description>Achievement name</description>
+		<en-EN>Discoverer</en-EN>
+	</text>
+	<text>
+		<text_id>grp.ROLLING_LOW_I</text_id>
+		<description>Achievement name</description>
+		<en-EN>Rolling Low I</en-EN>
+	</text>
+	<text>
+		<text_id>grp.ROLLING_LOW_II</text_id>
+		<description>Achievement name</description>
+		<en-EN>Rolling Low II</en-EN>
+	</text>
+	<text>
+		<text_id>grp.ROLLING_LOW_III</text_id>
+		<description>Achievement name</description>
+		<en-EN>Rolling Low III</en-EN>
+	</text>
+</texts>

@@ -1,0 +1,206 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!128 &12800000
+Font:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: DFT_FY7
+  m_AsciiStartOffset: 0
+  m_FontCountX: 16
+  m_FontCountY: 16
+  m_Kerning: 1
+  m_LineSpacing: 64
+  m_PerCharacterKerning: []
+  m_ConvertCase: 3
+  m_DefaultMaterial: {fileID: 2100000, guid: f70639d0e0eb03645976efe887d8c804, type: 2}
+  m_CharacterRects:
+  - serializedVersion: 2
+    index: 20998
+    uv:
+      serializedVersion: 2
+      x: 0.00390625
+      y: 0.78125
+      width: 0.22265625
+      height: 0.21484375
+    vert:
+      serializedVersion: 2
+      x: 4
+      y: -6
+      width: 57
+      height: -55
+    width: 64
+  - serializedVersion: 2
+    index: 25976
+    uv:
+      serializedVersion: 2
+      x: 0.23046875
+      y: 0.765625
+      width: 0.234375
+      height: 0.23046875
+    vert:
+      serializedVersion: 2
+      x: 2
+      y: -2
+      width: 60
+      height: -59
+    width: 64
+  - serializedVersion: 2
+    index: 33879
+    uv:
+      serializedVersion: 2
+      x: 0.46875
+      y: 0.76953125
+      width: 0.2265625
+      height: 0.2265625
+    vert:
+      serializedVersion: 2
+      x: 3
+      y: -2
+      width: 58
+      height: -58
+    width: 64
+  - serializedVersion: 2
+    index: 20316
+    uv:
+      serializedVersion: 2
+      x: 0.69921875
+      y: 0.76171875
+      width: 0.2265625
+      height: 0.234375
+    vert:
+      serializedVersion: 2
+      x: 3
+      y: -2
+      width: 58
+      height: -60
+    width: 64
+  - serializedVersion: 2
+    index: 27402
+    uv:
+      serializedVersion: 2
+      x: 0.00390625
+      y: 0.53125
+      width: 0.23046875
+      height: 0.2265625
+    vert:
+      serializedVersion: 2
+      x: 2
+      y: -3
+      width: 59
+      height: -58
+    width: 64
+  - serializedVersion: 2
+    index: 25152
+    uv:
+      serializedVersion: 2
+      x: 0.23828125
+      y: 0.53515625
+      width: 0.2265625
+      height: 0.22265625
+    vert:
+      serializedVersion: 2
+      x: 4
+      y: -4
+      width: 58
+      height: -57
+    width: 64
+  - serializedVersion: 2
+    index: 32
+    uv:
+      serializedVersion: 2
+      x: 0.46875
+      y: 0.7578125
+      width: 0
+      height: 0
+    vert:
+      serializedVersion: 2
+      x: 0
+      y: -51
+      width: 0
+      height: 0
+    width: 21
+  - serializedVersion: 2
+    index: 27491
+    uv:
+      serializedVersion: 2
+      x: 0.47265625
+      y: 0.55078125
+      width: 0.21875
+      height: 0.20703125
+    vert:
+      serializedVersion: 2
+      x: 3
+      y: -7
+      width: 56
+      height: -53
+    width: 64
+  - serializedVersion: 2
+    index: 22312
+    uv:
+      serializedVersion: 2
+      x: 0.6953125
+      y: 0.5234375
+      width: 0.2265625
+      height: 0.234375
+    vert:
+      serializedVersion: 2
+      x: 2
+      y: -2
+      width: 58
+      height: -60
+    width: 64
+  - serializedVersion: 2
+    index: 36617
+    uv:
+      serializedVersion: 2
+      x: 0.00390625
+      y: 0.2890625
+      width: 0.2265625
+      height: 0.23046875
+    vert:
+      serializedVersion: 2
+      x: 3
+      y: -2
+      width: 58
+      height: -59
+    width: 64
+  - serializedVersion: 2
+    index: 20837
+    uv:
+      serializedVersion: 2
+      x: 0.234375
+      y: 0.3125
+      width: 0.203125
+      height: 0.20703125
+    vert:
+      serializedVersion: 2
+      x: 8
+      y: -5
+      width: 52
+      height: -53
+    width: 64
+  - serializedVersion: 2
+    index: 8230
+    uv:
+      serializedVersion: 2
+      x: 0.44140625
+      y: 0.46484375
+      width: 0.21875
+      height: 0.0546875
+    vert:
+      serializedVersion: 2
+      x: 4
+      y: -25
+      width: 56
+      height: -14
+    width: 64
+  m_Texture: {fileID: 2800000, guid: 89cc74572f1b39f4296c677517bcd907, type: 2}
+  m_KerningValues: {}
+  m_GridFont: 0
+  m_FontData:
+  m_FontSize: 0
+  m_Ascent: 51.25
+  m_DefaultStyle: 0
+  m_FontNames: []

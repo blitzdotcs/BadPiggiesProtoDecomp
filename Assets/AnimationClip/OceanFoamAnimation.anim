@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: OceanFoamAnimation
+  m_Compressed: 0
+  m_RotationCurves: []
+  m_CompressedRotationCurves: []
+  m_PositionCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0, y: 0.77492297, z: 1.0011395}
+        inSlope: {x: 0.0017503824, y: 0, z: 0}
+        outSlope: {x: 0.0017503824, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.016667366
+        value: {x: 2.1144926E-05, y: 0.77492297, z: 1.0011395}
+        inSlope: {x: 0.0007891324, y: 0, z: 0}
+        outSlope: {x: 0.0007891324, y: 0, z: 0}
+        tangentMode: 0
+      - time: 2.4666667
+        value: {x: -0.0518702, y: 1.7964717, z: 1.0011395}
+        inSlope: {x: 0.005038455, y: 0.33246708, z: 0}
+        outSlope: {x: 0.005038455, y: 0.33246708, z: 0}
+        tangentMode: 0
+      - time: 3
+        value: {x: -0.037481986, y: 1.8930863, z: 1.0011395}
+        inSlope: {x: 0.041159518, y: 0.0060754484, z: 0}
+        outSlope: {x: 0.041159518, y: 0.0026442267, z: 0}
+        tangentMode: 0
+      - time: 3.6999998
+        value: {x: -0.012123372, y: 1.7399507, z: 1.0011395}
+        inSlope: {x: 0.01792957, y: -0.39944574, z: 0}
+        outSlope: {x: 0.01792957, y: -0.39944574, z: 0}
+        tangentMode: 0
+      - time: 5.9999995
+        value: {x: 0, y: 0.77492297, z: 1.0011395}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path:
+  m_ScaleCurves: []
+  m_FloatCurves: []
+  m_SampleRate: 60
+  m_WrapMode: 2
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_EditorCurves: []
+  m_EulerEditorCurves: []
+  m_Events: []

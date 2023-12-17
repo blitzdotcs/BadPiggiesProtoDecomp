@@ -1,0 +1,224 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1808867189537686}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0
+--- !u!1 &1808867189537686
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4488708878838662}
+  - 114: {fileID: 114091413978253268}
+  m_Layer: 0
+  m_Name: GameCenterManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4488708878838662
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1808867189537686}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4196787033792905}
+  m_Father: {fileID: 0}
+--- !u!114 &114091413978253268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1808867189537686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d7a27f9989821c048466ecff5c7e2f0, type: 3}
+  m_Name:
+  m_achievementPopup: {fileID: 114359977998440758, guid: 97ce8238f314c364d9503e08daa978ae, type: 2}
+  m_leaderboardIDs: []
+--- !u!1 &1773986215226498
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4196787033792905}
+  - 114: {fileID: 114205177868986316}
+  m_Layer: 0
+  m_Name: AchievementData
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4196787033792905
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1773986215226498}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -17.62371, y: 0.7640644, z: -91}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4488708878838662}
+--- !u!114 &114205177868986316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1773986215226498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7202cb7747dcd21ee316d1bc735eefe8, type: 3}
+  m_Name:
+  m_achievementList:
+  - id: grp.JUNIOR_WRECKER
+    icon: {fileID: 2800000, guid: 6c6c2634eb573f74cbbc6c4ee965d88e, type: 3}
+    limit: 1000
+    debugLimit: 5
+  - id: grp.QUALIFIED_WRECKER
+    icon: {fileID: 2800000, guid: 6c6c2634eb573f74cbbc6c4ee965d88e, type: 3}
+    limit: 10000
+    debugLimit: 10
+  - id: grp.VETERAN_WRECKER
+    icon: {fileID: 2800000, guid: 0a1c8d3f6843156489c7f88784443034, type: 3}
+    limit: 10000
+    debugLimit: 20
+  - id: grp.PIGSHAW
+    icon: {fileID: 2800000, guid: a8ccb43ed9684a84f843b5270c651e6f, type: 3}
+    limit: 5
+    debugLimit: 1
+  - id: grp.HOGFFEURR
+    icon: {fileID: 2800000, guid: eeb9b9cf52b3fb144b0f6869fdb60602, type: 3}
+    limit: 50
+    debugLimit: 5
+  - id: grp.BOOM_BOOM_1
+    icon: {fileID: 2800000, guid: 2778dc565040c3c4d91f03edf5c880a7, type: 3}
+    limit: 50
+    debugLimit: 1
+  - id: grp.BOOM_BOOM_2
+    icon: {fileID: 2800000, guid: 43df23dcf9aa8db4984ef0415b3c1e77, type: 3}
+    limit: 500
+    debugLimit: 5
+  - id: grp.BOOM_BOOM_3
+    icon: {fileID: 2800000, guid: 7baa7c9b1a04d2343b5a1034a3f4058b, type: 3}
+    limit: 10
+    debugLimit: 1000
+  - id: grp.SKILLED_PILOT
+    icon: {fileID: 2800000, guid: 386e3bf311b819448b10f1863b5fa254, type: 3}
+    limit: 50
+    debugLimit: 1
+  - id: grp.POPPERS_THEORY_1
+    icon: {fileID: 2800000, guid: 9ade05107a1d3f74b93d1ec79383cba1, type: 3}
+    limit: 10
+    debugLimit: 1
+  - id: grp.POPPERS_THEORY_2
+    icon: {fileID: 2800000, guid: 511ba5fc180df75448c449dc4012fc1c, type: 3}
+    limit: 50
+    debugLimit: 5
+  - id: grp.POPPERS_THEORY_3
+    icon: {fileID: 2800000, guid: 4bbe305682685284da751d1489e640b1, type: 3}
+    limit: 100
+    debugLimit: 10
+  - id: grp.COMPLEX_COMPLEX
+    icon: {fileID: 2800000, guid: 416d039052987b6439cc45a579e244ed, type: 3}
+    limit: 25
+    debugLimit: 10
+  - id: grp.TOURIST_1
+    icon: {fileID: 2800000, guid: 807b5c4c99337c442b88b1c067a5f985, type: 3}
+    limit: 10
+    debugLimit: 1
+  - id: grp.TOURIST_2
+    icon: {fileID: 2800000, guid: 832f5cdfc8d888d4c9140c602a45ee77, type: 3}
+    limit: 50
+    debugLimit: 5
+  - id: grp.TOURIST_3
+    icon: {fileID: 2800000, guid: fe49481ba2cd44842a7cff408023be52, type: 3}
+    limit: 100
+    debugLimit: 10
+  - id: grp.ROLLING_LOW_1
+    icon: {fileID: 2800000, guid: fe1e3b20646ab5446be453bd3645c386, type: 3}
+    limit: 10
+    debugLimit: 1
+  - id: grp.ROLLING_LOW_2
+    icon: {fileID: 2800000, guid: c7346caf058c485489fab90d41096bc4, type: 3}
+    limit: 50
+    debugLimit: 5
+  - id: grp.ROLLING_LOW_3
+    icon: {fileID: 2800000, guid: bd3a693fca2d6bc438d33262549e77b4, type: 3}
+    limit: 100
+    debugLimit: 10
+  - id: grp.IS_IT_SECRET
+    icon: {fileID: 2800000, guid: ad70ea59c6ae6e349bc9842070c0dcb5, type: 3}
+    limit: 10
+    debugLimit: 1
+  - id: grp.SECRET_ADMIRER
+    icon: {fileID: 2800000, guid: 2c62cd1ef2f22e14b826eb2ea8989817, type: 3}
+    limit: 10
+    debugLimit: 1
+  - id: grp.GROUND_HOG_DAY
+    icon: {fileID: 2800000, guid: 0a4c7aafac08e9e4081a484c1b93db8f, type: 3}
+    limit: 1
+    debugLimit: 1
+  - id: grp.WHEN_PIGS_FLY
+    icon: {fileID: 2800000, guid: 3469d626b54326743979c621d15b5acd, type: 3}
+    limit: 1
+    debugLimit: 1
+  - id: grp.WELL_GROUNDED
+    icon: {fileID: 2800000, guid: 187fa2cc1ccb7dd4794784121052bc6f, type: 3}
+    limit: 1
+    debugLimit: 1
+  - id: grp.BORN_TO_BE_AIRBORNE
+    icon: {fileID: 2800000, guid: b54b6c99937a59c4eb8975c88d63e3d8, type: 3}
+    limit: 1
+    debugLimit: 1
+  - id: grp.GROUND_BREAKER
+    icon: {fileID: 2800000, guid: 4261a55d15857be4eaddbd484ee63710, type: 3}
+    limit: 1
+    debugLimit: 1
+  - id: grp.CRASH_COURSE
+    icon: {fileID: 2800000, guid: 051f82a64eb41544b8ad1a658e0dee86, type: 3}
+    limit: 10
+    debugLimit: 1
+  - id: grp.PRETTY_FLY
+    icon: {fileID: 2800000, guid: 4261a55d15857be4eaddbd484ee63710, type: 3}
+    limit: 1
+    debugLimit: 1
+  - id: grp.THINK_INSIDE_THE_BOX
+    icon: {fileID: 2800000, guid: 8be3cca31618de94daea9b40500d61f3, type: 3}
+    limit: 1
+    debugLimit: 1
+  - id: grp.THINK_OUTSIDE_THE_BOX
+    icon: {fileID: 2800000, guid: f90b70e565d0e094ebf8efea0895de3f, type: 3}
+    limit: 1
+    debugLimit: 1
+  - id: grp.LITERATE
+    icon: {fileID: 2800000, guid: 47a97e8b2cb92cc429eb2b3b35a26da4, type: 3}
+    limit: 1
+    debugLimit: 1
+  - id: grp.PORCINE_CANNONBALL
+    icon: {fileID: 2800000, guid: 9344475934685994590b35c85ed29442, type: 3}
+    limit: 1
+    debugLimit: 1
+  - id: grp.BRUSH
+    icon: {fileID: 2800000, guid: da4167c493803ed489fdf1ec19917316, type: 3}
+    limit: 1
+    debugLimit: 1

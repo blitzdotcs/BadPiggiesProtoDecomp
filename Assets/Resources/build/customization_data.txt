@@ -1,0 +1,1 @@
+<build><!-->Build customization parameters<--><parameters><rovio_news><enabled>true</enabled></rovio_news><flurry><enabled>true</enabled></flurry><iap_enabled><enabled>true</enabled></iap_enabled><debug_build>true</debug_build><customer_id>Rovio</customer_id></parameters><svn_revision>587</svn_revision></build>

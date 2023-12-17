@@ -1,0 +1,133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 693dd64ba3486c6309d52353f7d12cc5, type: 3}
+  m_Name: GameData
+  m_ghostFeatureEnabled: 0
+  m_buttonStyle:
+    m_Name:
+    m_Normal:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Hover:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Active:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Focused:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Padding:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Margin:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_ImagePosition: 0
+    m_Alignment: 0
+    m_WordWrap: 0
+    m_TextClipping: 1
+    m_ContentOffset: {x: 0, y: 0}
+    m_ClipOffset: {x: 0, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 0
+    m_FontSize: 0
+    m_FontStyle: 0
+    m_StretchWidth: 1
+    m_StretchHeight: 0
+  m_particles: {fileID: 1459815042567816, guid: e189189efbf2fa8448c490bd1cf0f65b, type: 2}
+  m_ballonParticles: {fileID: 1314843362539349, guid: c87ce59808c26db4c92c64ef12809f49, type: 2}
+  m_dustParticles: {fileID: 1700800124952929, guid: 7d70ae0a3b49b3241b790b9364be1647, type: 2}
+  m_constructionUIPrefab: {fileID: 4894334467740181, guid: 45cb3d410f4e6a54eb8e12b44ebfc223, type: 2}
+  m_contraptionPrefab: {fileID: 4992380236400629, guid: 238fe7207c8099e4786333fda90fbf9e, type: 2}
+  m_blueprintPrefab: {fileID: 4792588493133093, guid: d68376a427ce45a4c97759844bcaadef, type: 2}
+  m_hudPrefab: {fileID: 4015250004871439, guid: d1c4050941c9b954d9aa0cc8ac530095, type: 2}
+  m_krakSprite: {fileID: 1891273053611629, guid: a7690116e2335fa499bf78558fe1c097, type: 2}
+  m_snapSprite: {fileID: 1069345328121934, guid: d05ecda3313888b4cabfbd13a27f2e5d, type: 2}
+  m_font: {fileID: 12800000, guid: 1f51ee32a81bbce479ab397c7ea93088, type: 2}
+  m_audioAmbience: {fileID: 0}
+  m_jointConnectionStrengthWeak: 2.37
+  m_jointConnectionStrengthNormal: 2.37
+  m_jointConnectionStrengthHigh: 10
+  m_jointConnectionStrengthExtreme: 15
+  m_useTouchControls: 0
+  singletonSpawner: {fileID: 1604004553891139, guid: 418b3398e9836084fa8be3dfb0769a8b, type: 2}
+  effectManager: {fileID: 1181182028373462, guid: 8116ad2a78e2f064f8655ee531b7bc6d, type: 2}
+  m_partOrderList: {fileID: 4900000, guid: 5ab2d8a221cef1f449bb2a367dc6201a, type: 3}
+  m_sandboxTitles:
+  - name: Level_Sandbox_01
+    titleSprite: {fileID: 114886732140582191, guid: 80e981726ff02a949a8d205c6f88878e, type: 2}
+  - name: Level_Sandbox_02
+    titleSprite: {fileID: 114774003536634597, guid: 9a59d63b04fc0c4438e1a4fc0ea217f3, type: 2}
+  m_parts:
+  - {fileID: 1172861338015789, guid: 1d7d9839f307d284687eb49b2434cb91, type: 2}
+  - {fileID: 1688313009961507, guid: 6bbcbc7a6137b0c49840f38b09d9e02f, type: 2}
+  - {fileID: 1486534818074439, guid: 1dae50c04b8bb9443be3410b39643e50, type: 2}
+  - {fileID: 1706456334293846, guid: 4c4610ca4e8ef2347be648fd7f03ad24, type: 2}
+  - {fileID: 1720414560786071, guid: 9cb756e1e2390da4ca798878429ed39e, type: 2}
+  - {fileID: 1912410461039516, guid: f597e975248ef034ea6336232cdbcf7a, type: 2}
+  - {fileID: 1662713690131937, guid: 3695044cbdeada54998f176bc1cb0198, type: 2}
+  - {fileID: 1166083127456927, guid: a8c18560612dc9540a1425698804970b, type: 2}
+  - {fileID: 1775901217584705, guid: c9060b2c1bf043146abdd56ebcdd695c, type: 2}
+  - {fileID: 1877248042858597, guid: a6558ecfb1909cb41a57217f4e8eff78, type: 2}
+  - {fileID: 1221525675683492, guid: c934eab52321bfd4e8e41d11b161ab8f, type: 2}
+  - {fileID: 1103778499732433, guid: 3724cd99adccb7a419e4de2f7f417d71, type: 2}
+  - {fileID: 1475064861019210, guid: 336737aeea3861f419a9f47ff15330a4, type: 2}
+  - {fileID: 1234580685480122, guid: 8bc49eb43894b8a4984a320773ca7dd7, type: 2}
+  - {fileID: 1375341191742930, guid: 58adc3c97de83bf46ac3f9e4c2c6e59b, type: 2}
+  - {fileID: 1350485800004458, guid: fb9aa6419f7f5054abc82192211c1b7f, type: 2}
+  - {fileID: 1840068587957494, guid: 418f3fcc70b54aa4c8c50519d18cc607, type: 2}
+  - {fileID: 1112563009112315, guid: 44ce383d6728ab5468c45325dcad792c, type: 2}
+  - {fileID: 1870740792129889, guid: ffd17c58a7a15824db69bb5b7e435e43, type: 2}
+  - {fileID: 1312926930373419, guid: 953fadadeea9e3544a81c24515607f08, type: 2}
+  - {fileID: 1585709255249213, guid: 211a9c7d139002b428be90fed23c0581, type: 2}
+  - {fileID: 1631491417743431, guid: cecc71be108076140a93881fc90f2ef8, type: 2}
+  - {fileID: 1869657946977615, guid: a8091933b021cff4bbb57b9047f10210, type: 2}
+  - {fileID: 1789860295811647, guid: 7c7b732e51e78eb49bb485b821854e92, type: 2}
+  - {fileID: 1714872171584477, guid: eed6f3279c0bc3f4ab51d3348de7c095, type: 2}
+  - {fileID: 1744505014982393, guid: 7452fe8867934e249906be5e742c8097, type: 2}
+  - {fileID: 1284502272759332, guid: 017d292cebaff214a9ebeb0217bf35a9, type: 2}
+  - {fileID: 1799503037415812, guid: edd4426b704b3c34eb9398e2f177adc9, type: 2}
+  - {fileID: 1290211825593759, guid: b51747f6e93bfee49a6f21caefd78c0d, type: 2}
+  - {fileID: 1067601453631544, guid: ab1a10b5b048d0e49bc3f616cbc3f585, type: 2}
+  - {fileID: 1647151846448670, guid: c6059a07aacb038459380c1e544737e8, type: 2}
+  - {fileID: 1559349617662791, guid: a281c3f2687f83c46b4ceaf4d976bf31, type: 2}
+  - {fileID: 1891637656780982, guid: 2b4bbd70eaa863b41bd3aab1a3944945, type: 2}
+  m_episodeLevels:
+  - {fileID: 114839406773883500, guid: ba5a10f2507afd94592c5c673f19a5bf, type: 2}
+  - {fileID: 114140414339011901, guid: 9b194b0acf54bfd4aa5dc8856a54a45f, type: 2}

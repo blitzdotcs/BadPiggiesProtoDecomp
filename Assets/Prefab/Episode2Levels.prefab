@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1947082280112859}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0
+--- !u!1 &1947082280112859
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4165621073783253}
+  - 114: {fileID: 114140414339011901}
+  m_Layer: 0
+  m_Name: Episode2Levels
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4165621073783253
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1947082280112859}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &114140414339011901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1947082280112859}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41137cfee4e62ece3e66ab493ca29f6b, type: 3}
+  m_Name:
+  m_levels:
+  - Level_01
+  - Level_16
+  - Level_02
+  - Level_03
+  - Level_35
+  - Level_04
+  - test03
+  - Level_07
+  - Level_12
+  - Level_34
+  - test49
+  - test01
+  - test48
+  - Level_11
+  - Level_36
+  - test14
+  - test17
+  - Level_37
+  - test06
+  - test18
+  - Level_38
+  - Level_39
+  - Level_40
+  - Level_41
+  - Placeholder_25
+  - Level_19
+  - test04
+  - Placeholder_28
+  - Placeholder_29
+  - Placeholder_30
+  - Placeholder_31
+  - Placeholder_32
+  - Placeholder_33
+  - Placeholder_34
+  - Placeholder_35
+  - Placeholder_36
+  - Placeholder_37
+  - Placeholder_38
+  - Placeholder_39
+  - Placeholder_40
+  - Placeholder_41
+  - Placeholder_42
+  - Placeholder_43
+  - Placeholder_44
+  - Placeholder_45
